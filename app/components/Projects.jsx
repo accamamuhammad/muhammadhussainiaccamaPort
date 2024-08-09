@@ -11,7 +11,7 @@ const Projects = () => {
         {/* Projects List */}
         <li className="text-primaryText leading-5">
           <Link
-            href="https://app.netlify.com/sites/pinnacle-international-fitness/overview"
+            href="https://pinnacle-international-fitness.netlify.app/"
             target="_blank"
             className={proectsStyling}
           >
