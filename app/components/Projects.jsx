@@ -4,6 +4,9 @@ const Projects = () => {
   const proectsStyling =
     "cursor-pointer underline hover:decoration-secondaryText hover:decoration-2 underline-offset-4";
 
+  const proectsStylingPending =
+    "text-gray-400 cursor-pointer underline hover:decoration-secondaryText hover:decoration-2 underline-offset-4";
+
   return (
     <div className="w-full" id="projects">
       <h1 className="text-xl mb-4 text-primaryText">Projects</h1>
@@ -39,8 +42,8 @@ const Projects = () => {
           </Link>{" "}
           Just a fun game of Tic Tac Toe 😃.
         </li>
-        <li className="text-primaryText leading-5">
-          <Link href="" className={proectsStyling}>
+        <li className="text-gray-400 leading-5">
+          <Link href="" className={proectsStylingPending}>
             Student Productivity App (saas)
           </Link>{" "}
           launching soon 🤫.
