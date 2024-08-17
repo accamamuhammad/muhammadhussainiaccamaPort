@@ -15,7 +15,7 @@ const Posts = () => {
           className="text-TertiaryBg"
         >
           <li className="text-primaryText">
-            30 07 2024
+            30 07 2024 {""}
             <span className={PostStyling}>
               7 Reasons Why TailwindCSS Outshines Traditional CSS
             </span>

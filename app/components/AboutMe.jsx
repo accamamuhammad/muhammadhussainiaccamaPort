@@ -29,7 +29,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div>
+    <div id="aboutMe">
       <h1 className="font-medium text-2xl text-primaryText">Hey there!</h1>
       <p className="mt-4 text-xs sm:text-sm leading-[1.3rem] sm:leading-[1.55rem] text-primaryText">
         I am <span className="text-secondaryText">Accama Muhammad</span>, a
@@ -62,6 +62,7 @@ const AboutMe = () => {
               src={currentTheme ? DarkCodepen : LightCodepen}
             />
           </Link>
+          {/**
           <Link href="" target="blank">
             <Image
               width={14}
@@ -78,6 +79,7 @@ const AboutMe = () => {
               src={currentTheme ? DarkEmail : LightEmail}
             />
           </Link>
+                    */}
         </div>
       </div>
     </div>
