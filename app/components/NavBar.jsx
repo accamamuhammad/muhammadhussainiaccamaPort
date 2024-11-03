@@ -7,12 +7,10 @@ import MoonIcon from "../../public/assets/icons/moon-dark.png";
 import SunlightIcon from "../../public/assets/icons/sun-icon.png";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { LinksContext } from "../page";
 
 const NavBar = () => {
   const [toggleTheme, setToggleTheme] = useState(true);
   const [toggleNav, setToggleNav] = useState(false);
-  const AllLinks = useContext(LinksContext);
 
   const handleToggleTheme = () => {
     setToggleTheme(!toggleTheme);

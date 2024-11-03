@@ -17,7 +17,7 @@ import LightLinkdin from "../../public/assets/icons/LinkdenLight.svg";
 import DarkEmail from "../../public/assets/icons/EnveloperDark.svg";
 import LightEmail from "../../public/assets/icons/EnveloperLight.svg";
 
-const AboutMe = () => {
+const AboutMe = (props) => {
   const [currentTheme, setCurrentTheme] = useState();
 
   useEffect(() => {
@@ -32,21 +32,16 @@ const AboutMe = () => {
     <div id="aboutMe">
       <h1 className="font-medium text-2xl text-primaryText">Hey there!</h1>
       <p className="mt-4 text-xs sm:text-sm leading-[1.3rem] sm:leading-[1.55rem] text-primaryText">
-        I am <span className="text-secondaryText">Accama Muhammad</span>, a
-        front-end web developer from Abuja, Nigeria, I transform design into
-        code, using HTML, CSS, Tailwind, , and frameworks like React and NextJS
-        to create aesthetically pleasing and incredibly user-friendly &
-        easy-to-use websites. I am a dedicated tech enthusiast who enjoys
-        working with others and bringing imaginative concepts to life. My
-        superpower is patience, and I am all about making sure your online
-        vision is seen and understood.
+        {props.data.intro}
+        <span className="text-secondaryText">{props.data.name}</span>
+        {props.data.aboutMe}
       </p>
       <div className="mt-2.5 gap-4 flex flex-row items-center justify-start">
         <p className="text-primaryText text-xs sm:text-sm leading-[1.55rem]">
           Find me on
         </p>
         <div className="gap-5 flex flex-row items-center justify-center">
-          <Link href="https://github/accamamuhamammad" target="blank">
+          <Link href={props.data.links.Github} target="blank">
             <Image
               width={14}
               height={14}
@@ -54,7 +49,7 @@ const AboutMe = () => {
               src={currentTheme ? DarkGithub : LightGithub}
             />
           </Link>
-          <Link href="https://codepen.io/your-work" target="blank">
+          <Link href={props.data.links.Codepen} target="blank">
             <Image
               width={14}
               height={14}

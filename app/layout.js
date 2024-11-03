@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Accama Muhammad 2.0",
-  description: "Composure + Patience + Iman = success",
+  description: "Pressure makes diamonds",
 };
 
 export default function RootLayout({ children }) {
