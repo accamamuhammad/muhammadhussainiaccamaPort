@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../../public/assets/icons/Logo.png";
+import Logo from "../../public/assets/icons/king.png";
 import MoonIcon from "../../public/assets/icons/moon-dark.png";
 import SunlightIcon from "../../public/assets/icons/sun-icon.png";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

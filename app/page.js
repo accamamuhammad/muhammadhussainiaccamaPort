@@ -25,6 +25,19 @@ export default function Home() {
   // My Projects
   const projects = [
     {
+      link: "https://pinnacle-international-fitness.netlify.app/",
+      title: "Pinnacle Fitness",
+      description:
+        "Created a website to help people start their fitness journey 🏋🏽‍♀️.",
+      state: "complete",
+    },
+    {
+      link: "https://dua-tracker.vercel.app/",
+      title: "Dua Tracker",
+      description: "Stay Connected to Your Duas, Strengthen Your Faith. 📿",
+      state: "complete",
+    },
+    {
       link: "https://charity-ngo-site-d9s2.vercel.app/",
       title: "Charity NGO",
       description:
@@ -32,10 +45,15 @@ export default function Home() {
       state: "complete",
     },
     {
-      link: "https://pinnacle-international-fitness.netlify.app/",
-      title: "Pinnacle Fitness",
-      description:
-        "Created a website to help people start their fitness journey 🏋🏽‍♀️.",
+      link: "https://tictactoegame-749yyljqz-acccama-muhammads-projects.vercel.app/",
+      title: "Rock Paper Scissors",
+      description: "Just a fun game of Tic Tac Toe 😃.",
+      state: "complete",
+    },
+    {
+      link: "",
+      title: "Tip Search",
+      description: "Code Smarter, Solve Faster, with a tip search tool. 🔎.",
       state: "complete",
     },
     {
@@ -46,15 +64,10 @@ export default function Home() {
       state: "complete",
     },
     {
-      link: "https://tictactoegame-749yyljqz-acccama-muhammads-projects.vercel.app/",
-      title: "Rock Paper Scissors",
-      description: "Just a fun game of Tic Tac Toe 😃.",
-      state: "complete",
-    },
-    {
       link: "https://github.com/accamamuhammad",
-      title: "Money Allocator",
-      description: "earn more by saving like a pro. 💸",
+      title: "Wallet Manager",
+      description:
+        "A place to store all your crypto wallets addresses, safely. 🔐",
       state: "pending",
     },
   ];
