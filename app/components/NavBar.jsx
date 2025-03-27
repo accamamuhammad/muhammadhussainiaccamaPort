@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../../public/assets/icons/king.png";
+import LogoLight from "../../public/assets/icons/king.png";
+import LogoDark from "../../public/assets/icons/king-ash.png";
 import MoonIcon from "../../public/assets/icons/moon-dark.png";
 import SunlightIcon from "../../public/assets/icons/sun-icon.png";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   const [toggleTheme, setToggleTheme] = useState(true);
@@ -27,7 +27,14 @@ const NavBar = () => {
   return (
     <nav className="w-full h-fit mt-10 flex items-center justify-between">
       <div className="gap-2.5 flex items-center justify-center flex-row">
-        <Image width={45} height={45} alt="Logo" src={Logo} />
+        <Image
+          width={45}
+          height={45}
+          alt="logo"
+          onClick={handleToggleTheme}
+          className="cursor-pointer hover:border-secondaryBg hover:border-[1.5px] rounded-md p-[4px]"
+          src={toggleTheme ? LogoLight : LogoDark}
+        />
         <div className="w-full gap-[2px] flex items-start justify-center flex-col">
           <h1 className="font-bold text-xl  text-primaryText">
             Accama Muhammad

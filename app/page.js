@@ -2,6 +2,7 @@
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import WorkExperience from "./components/WorkExperience";
 import Posts from "./components/Posts";
 import TechStack from "./components/TechStack";
 
@@ -72,6 +73,15 @@ export default function Home() {
     },
   ];
 
+  // Work Experience
+  const experience = [
+    {
+      workPlace: "Kennie Technologies",
+      date: "February 2025 - Current",
+      position: "Intern",
+    },
+  ];
+
   // My blog posts
   const posts = [
     {
@@ -107,6 +117,7 @@ export default function Home() {
         <NavBar />
         <AboutMe data={description} />
         <Projects data={projects} />
+        <WorkExperience data={experience} />
         <Posts data={posts} />
         <TechStack data={techStack} />
       </div>
