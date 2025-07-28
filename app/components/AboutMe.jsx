@@ -30,14 +30,16 @@ const AboutMe = (props) => {
 
   return (
     <div id="aboutMe">
-      <h1 className="font-medium text-2xl text-primaryText">Hey there!</h1>
-      <p className="mt-4 text-xs sm:text-sm leading-[1.3rem] sm:leading-[1.55rem] text-primaryText">
+      <h1 className="font-medium text-2xl text-primaryText font-semibold">
+        Hey there!
+      </h1>
+      <p className="mt-4 text-xs text-justify sm:text-sm leading-[1.35rem] sm:leading-[1.6rem] text-primaryText">
         {props.data.intro}
         <span className="text-secondaryText">{props.data.name}</span>
         {props.data.aboutMe}
       </p>
-      <div className="mt-2.5 gap-4 flex flex-row items-center justify-start">
-        <p className="text-primaryText text-xs sm:text-sm leading-[1.55rem]">
+      <div className="mt-3 gap-4 flex flex-row items-center justify-start">
+        <p className="text-secondaryText font-medium text-xs sm:text-sm leading-[1.55rem]">
           Find me on
         </p>
         <div className="gap-5 flex flex-row items-center justify-center">

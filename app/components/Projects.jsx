@@ -9,7 +9,7 @@ const Projects = (props) => {
 
   return (
     <div className="w-full" id="projects">
-      <h1 className="text-xl mb-4 text-primaryText">Projects</h1>
+      <h1 className="text-xl mb-4 text-primaryText font-semibold">Projects</h1>
       <ul className="gap-5 text-xs sm:text-sm flex flex-col items-start justify-start">
         {/* Projects List */}
         {props.data.map((item, index) => {

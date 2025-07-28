@@ -12,7 +12,7 @@ export default function Home() {
     intro: "Hi 👋, my name is ",
     name: "Accama Muhammad ",
     aboutMe:
-      "i am a web developer based in Abuja, Nigeria, i am proficient in HTML, CSS, TailwindCSS, firebase and frameworks like React and NextJS, i use these to create aesthetically pleasing and incredibly user-friendly & easy-to-use websites. My superpower is patience, and I am all about making sure your online vision is seen and understood.",
+      "I’m Accama, a web developer and entrepreneur passionate about creating modern, user-friendly websites that help businesses grow. Beyond web development, I’m exploring cybersecurity, blockchain, and AI, while continuously learning and innovating. 🚀 My goal is to leverage technology to simplify lives and drive growth.",
     links: {
       Github: "https://github.com/accamamuhammad",
       Codepen: "https://github.com/accamamuhammad",
@@ -33,12 +33,6 @@ export default function Home() {
       state: "complete",
     },
     {
-      link: "https://dua-tracker.vercel.app/",
-      title: "Dua Tracker",
-      description: "Stay Connected to Your Duas, Strengthen Your Faith. 📿",
-      state: "complete",
-    },
-    {
       link: "https://charity-ngo-site-d9s2.vercel.app/",
       title: "Charity NGO",
       description:
@@ -46,24 +40,24 @@ export default function Home() {
       state: "complete",
     },
     {
-      link: "https://tictactoegame-749yyljqz-acccama-muhammads-projects.vercel.app/",
+      link: "https://github.com/accamamuhammad",
       title: "Rock Paper Scissors",
+      description: "Just a fun game of Rock Paper Scissors 😃.",
+      state: "complete",
+    },
+    {
+      link: "https://dua-tracker.vercel.app/",
+      title: "Dua Tracker",
+      description: "Stay Connected to Your Duas, Strengthen Your Faith. 📿",
+      state: "complete",
+    },
+    {
+      link: "https://github.com/accamamuhammad",
+      title: "Tic Tac Toe",
       description: "Just a fun game of Tic Tac Toe 😃.",
       state: "complete",
     },
-    {
-      link: "",
-      title: "Tip Search",
-      description: "Code Smarter, Solve Faster, with a tip search tool. 🔎.",
-      state: "complete",
-    },
-    {
-      link: "https://countrysearchreactapp.netlify.app/",
-      title: "Country Search (API)",
-      description:
-        "Instantly explore countries with our fun, fast API-powered app! 🌎.",
-      state: "complete",
-    },
+
     {
       link: "https://github.com/accamamuhammad",
       title: "Wallet Manager",
@@ -77,8 +71,13 @@ export default function Home() {
   const experience = [
     {
       workPlace: "Kennie Technologies",
-      date: "February 2025 - Current",
+      date: "February 2025 - May 2025",
       position: "Intern",
+    },
+    {
+      workPlace: "Protus Tech",
+      date: "June 2025 - Present",
+      position: "Founder",
     },
   ];
 
@@ -102,9 +101,10 @@ export default function Home() {
     { name: "CSS", state: "complete" },
     { name: "React", state: "complete" },
     { name: "NextJS", state: "complete" },
-    { name: "firebase", state: "complete" },
     { name: "Tailwind", state: "complete" },
     { name: "JavaScript", state: "complete" },
+    { name: "Typescript", state: "complete" },
+    { name: "firebase", state: "complete" },
     { name: "Git, Github", state: "complete" },
     { name: "MySQL", state: "progress" },
   ];

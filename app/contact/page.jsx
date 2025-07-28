@@ -6,29 +6,29 @@ const page = () => {
       <h1 className="text-xl text-blue-950">Contact Me 📞</h1>
       <div className="w-full sm:w-[380px] space-y-10">
         <div className="w-full">
-          <h2 className="text-[0.8rem]">Enter your Full Name</h2>
+          <h2 className="text-[0.8rem] ml-1">Enter your Full Name</h2>
           <input
             type="text"
             placeholder="John nolan"
-            className="w-full border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
+            className="w-full pl-1 border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
           />
         </div>
         <div className="w-full">
-          <h2 className="text-[0.8rem]">Enter your Email Address</h2>
+          <h2 className="text-[0.8rem] ml-1">Enter your Email Address</h2>
           <input
             type="email"
             placeholder="Johnnolan@example.com"
-            className="w-full border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
+            className="w-full pl-1 border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
           />
         </div>
         <div className="w-full">
-          <h2 className="text-[0.8rem]">Enter your Message</h2>
+          <h2 className="text-[0.8rem] ml-1">Enter your Message</h2>
           <textarea
             placeholder="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem facilis minima possimus quia ipsum aliquid. Voluptatum consequatur reiciendis nobis consequuntur."
-            className="w-full leading-[22px] resize-none h-32 border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
+            className="w-full pl-1 leading-[22px] resize-none h-32 border-x-none border-b-[.8px] border-grey-500 mt-1.5 py-1.5 text-xs"
           />
         </div>
-        <button className="w-full bg-gray-50 shadow text-slate-800 text-sm py-2 rounded-sm font-medium">
+        <button className="w-full bg-gray-50 hover:bg-gray-100 font-bold shadow text-slate-800 text-sm py-2 rounded-sm">
           Send
         </button>
       </div>

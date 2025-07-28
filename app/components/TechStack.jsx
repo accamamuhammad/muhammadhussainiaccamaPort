@@ -6,7 +6,7 @@ const TechStack = (props) => {
 
   return (
     <div className="w-full mb-3">
-      <h1 className="text-xl mb-4 text-primaryText">Tech</h1>
+      <h1 className="text-xl mb-4 text-primaryText font-semibold">Tech</h1>
       <ul className="gap-3 flex flex-col">
         {props.data.map((item, index) => {
           return (
@@ -19,7 +19,11 @@ const TechStack = (props) => {
               }
             >
               <span
-                className={`${item.state === "complete" ? "text-primaryText text-sm" : "text-TertiaryBg text-sm"} `}
+                className={`${
+                  item.state === "complete"
+                    ? "text-primaryText text-sm"
+                    : "text-TertiaryBg text-sm"
+                } `}
               >
                 {index + 1}.{" "}
               </span>

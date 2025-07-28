@@ -6,7 +6,7 @@ const Posts = (props) => {
 
   return (
     <div className="w-full">
-      <h1 className="text-xl mb-4 text-primaryText">Posts</h1>
+      <h1 className="text-xl mb-4 text-primaryText font-semibold">Posts</h1>
       <ul className="gap-4 sm:gap-3.5 text-sm flex flex-col items-start justify-start">
         {/* Projects List */}
         {props.data.map((item, index) => {
@@ -15,10 +15,10 @@ const Posts = (props) => {
               key={index}
               href={item.link}
               target="_blank"
-              className="text-TertiaryBg"
+              className="text-TertiaryBg flex flex-row gap-5 items-center"
             >
+              <li>{item.date}</li>
               <li className="text-primaryText">
-                {item.date} {""}
                 <span className={PostStyling}>{item.title}</span>
               </li>
             </Link>

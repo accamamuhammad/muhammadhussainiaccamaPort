@@ -52,7 +52,7 @@ const NavBar = () => {
             <li
               className={`${"py-[2px] sm:border-r sm:border-dashed"} ${primaryNavStyling}`}
             >
-              <Link href="#aboutMe">Projects</Link>
+              <Link href="/projects">Projects</Link>
             </li>
             <li
               className={`${"py-[2px] sm:border-r sm:border-dashed"} ${primaryNavStyling}`}
