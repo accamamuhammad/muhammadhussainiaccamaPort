@@ -32,9 +32,7 @@ const AboutMe = (props) => {
 
   return (
     <div id="aboutMe">
-      <h1 className="font-medium text-2xl text-primaryText font-semibold">
-        Hey there!
-      </h1>
+      <h1 className="text-2xl text-primaryText font-semibold">Hey there!</h1>
       <p className="mt-4 text-xs text-justify sm:text-sm leading-[1.35rem] sm:leading-[1.6rem] text-primaryText">
         {props.data.intro}
         <span className="text-secondaryText">{props.data.name}</span>

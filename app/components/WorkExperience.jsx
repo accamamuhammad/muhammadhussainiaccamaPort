@@ -9,7 +9,10 @@ const WorkExperience = (props) => {
       <div className="w-full gap-5 flex flex-col justify-between items-center">
         {props.data.map((item, index) => {
           return (
-            <div className="w-full gap-1 flex flex-col lg:flex-row justify-between">
+            <div
+              key={index}
+              className="w-full gap-1 flex flex-col lg:flex-row justify-between"
+            >
               <p className="w-full font-medium text-primaryText">
                 {item.workPlace}
               </p>
