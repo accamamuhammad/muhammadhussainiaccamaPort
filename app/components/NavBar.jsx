@@ -25,7 +25,7 @@ const NavBar = () => {
     "sm:px-3 text-[0.85rem] text-secondaryText hover:text-primaryText sm:border-secondaryText";
 
   return (
-    <nav className="w-full h-fit mt-10 flex items-center justify-between">
+    <nav className="w-full h-fit mt-16 flex items-center justify-between">
       <div className="gap-2.5 flex items-center justify-center flex-row">
         <Image
           width={45}
@@ -57,10 +57,10 @@ const NavBar = () => {
             <li
               className={`${"py-[2px] sm:border-r sm:border-dashed"} ${primaryNavStyling}`}
             >
-              <Link href="#projects">Blog</Link>
+              <Link href="/blog">Blog</Link>
             </li>
             <li className={`${"py-[2px]"} ${primaryNavStyling}`}>
-              <Link href="/contact">Contact</Link>
+              <Link href="mailto:protusweb@gmail.com">Contact</Link>
             </li>
           </ul>
         </div>

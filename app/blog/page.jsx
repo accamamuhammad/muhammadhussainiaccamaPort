@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="w-screen h-screen flex items-center justify-center">
-      <h1>My Blog Posts</h1>
+      <h1 className="text-4xl font-bold">Coming Soon! 😁</h1>
     </div>
   );
 };

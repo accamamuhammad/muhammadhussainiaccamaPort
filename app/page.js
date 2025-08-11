@@ -12,24 +12,25 @@ export default function Home() {
     intro: "Hi 👋, my name is ",
     name: "Accama Muhammad ",
     aboutMe:
-      "I’m Accama, a web developer and entrepreneur passionate about creating modern, user-friendly websites that help businesses grow. Beyond web development, I’m exploring cybersecurity, blockchain, and AI, while continuously learning and innovating. 🚀 My goal is to leverage technology to simplify lives and drive growth.",
+      "Hey there 👋, I’m Accama Muhammad, part code wrangler, part idea launcher. I bring ideas to life on the web, building sites that feel alive, tell stories, and actually get things done. When I’m not buried in React components or chasing down a stubborn bug, I’m exploring the worlds of blockchain and AI always tinkering, experimenting, and seeing what’s possible. I’m here to build cool stuff, learn endlessly, and push my creativity further. 🚀",
+
     links: {
       Github: "https://github.com/accamamuhammad",
-      Codepen: "https://github.com/accamamuhammad",
-      Blog: "https://github.com/accamamuhammad",
-      Dribble: "https://github.com/accamamuhammad",
-      Twitter: "https://github.com/accamamuhammad",
-      Instagram: "https://github.com/accamamuhammad",
+      Blog: "https://accamamuhammad.hashnode.dev/",
+      Dribble: "https://dribbble.com/accamamuhammad17",
+      // Twitter: "https://github.com/accamamuhammad",
+      // Instagram: "https://github.com/accamamuhammad",
+      // Codepen: "https://github.com/accamamuhammad",
     },
   };
 
   // My Projects
   const projects = [
     {
-      link: "https://pinnacle-international-fitness.netlify.app/",
-      title: "Pinnacle Fitness",
+      link: "https://protos-web-solutions.vercel.app/",
+      title: "Protus Tech",
       description:
-        "Created a website to help people start their fitness journey 🏋🏽‍♀️.",
+        "A web design agency for coaches to shine and book more clients 📈.",
       state: "complete",
     },
     {
@@ -40,29 +41,30 @@ export default function Home() {
       state: "complete",
     },
     {
-      link: "https://github.com/accamamuhammad",
-      title: "Rock Paper Scissors",
-      description: "Just a fun game of Rock Paper Scissors 😃.",
+      link: "https://pinnacle-international-fitness.netlify.app/",
+      title: "Pinnacle Fitness",
+      description: "A website to help people start their fitness journey 🏋🏽‍♀️.",
       state: "complete",
+    },
+    {
+      link: "https://rock-paper-scissors-game-iota-nine.vercel.app/",
+      title: "Rock Paper Scissors",
+      description:
+        "Just a harmless game of Rock, Paper, Scissors ✌️… or is it?",
+      state: "complete",
+    },
+    {
+      link: "https://github.com/accamamuhammad/Trackment",
+      title: "Trackment",
+      description:
+        "App to create experiments, set durations, and log daily progress 📆",
+      state: "pending",
     },
     {
       link: "https://dua-tracker.vercel.app/",
       title: "Dua Tracker",
-      description: "Stay Connected to Your Duas, Strengthen Your Faith. 📿",
-      state: "complete",
-    },
-    {
-      link: "https://github.com/accamamuhammad",
-      title: "Tic Tac Toe",
-      description: "Just a fun game of Tic Tac Toe 😃.",
-      state: "complete",
-    },
-
-    {
-      link: "https://github.com/accamamuhammad",
-      title: "Wallet Manager",
       description:
-        "A place to store all your crypto wallets addresses, safely. 🔐",
+        "Stay Connected to Your Duas, Strengthen Your Connection with Allah. 📿",
       state: "pending",
     },
   ];
@@ -77,7 +79,7 @@ export default function Home() {
     {
       workPlace: "Protus Tech",
       date: "June 2025 - Present",
-      position: "Founder",
+      position: "Founder & CTO",
     },
   ];
 
@@ -104,9 +106,12 @@ export default function Home() {
     { name: "Tailwind", state: "complete" },
     { name: "JavaScript", state: "complete" },
     { name: "Typescript", state: "complete" },
-    { name: "firebase", state: "complete" },
+    { name: "Firebase", state: "complete" },
     { name: "Git, Github", state: "complete" },
+    { name: "Vercel", state: "complete" },
+    { name: "Docker", state: "complete" },
     { name: "MySQL", state: "progress" },
+    { name: "MongoDB", state: "progress" },
   ];
 
   return (

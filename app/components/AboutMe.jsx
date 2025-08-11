@@ -1,21 +1,23 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-/** Github */
+// Github
 import DarkGithub from "../../public/assets/icons/GithubDark.svg";
 import LightGithub from "../../public/assets/icons/GithubLight.svg";
-/** Twitter */
-import DarkTwitter from "../../public/assets/icons/TwitterDark.svg";
-import LightTwitter from "../../public/assets/icons/TwitterLight.svg";
-/** Codepen */
-import DarkCodepen from "../../public/assets/icons/CodepenDark.svg";
-import LightCodepen from "../../public/assets/icons/CodepenLight.svg";
-/** Linkdin */
-import DarkLinkdin from "../../public/assets/icons/LinkdenDark.svg";
-import LightLinkdin from "../../public/assets/icons/LinkdenLight.svg";
-/** Email */
+// Email
 import DarkEmail from "../../public/assets/icons/EnveloperDark.svg";
 import LightEmail from "../../public/assets/icons/EnveloperLight.svg";
+// Dribble
+import DribbleIcon from "../../public/assets/icons/dribbble-logo.png";
+// Blog
+import BlogIcon from "../../public/assets/icons/pencil.png";
+//
+/** Twitter */
+// import DarkTwitter from "../../public/assets/icons/TwitterDark.svg";
+// import LightTwitter from "../../public/assets/icons/TwitterLight.svg";
+/** Codepen */
+// import DarkCodepen from "../../public/assets/icons/CodepenDark.svg";
+// import LightCodepen from "../../public/assets/icons/CodepenLight.svg";
 
 const AboutMe = (props) => {
   const [currentTheme, setCurrentTheme] = useState();
@@ -43,40 +45,33 @@ const AboutMe = (props) => {
           Find me on
         </p>
         <div className="gap-5 flex flex-row items-center justify-center">
+          <Link href="mailto:protusweb@gmail.com">
+            <Image
+              width={14}
+              height={14}
+              alt="Email Icon"
+              src={currentTheme ? DarkEmail : LightEmail}
+            />
+          </Link>
           <Link href={props.data.links.Github} target="blank">
             <Image
               width={14}
               height={14}
-              alt="Github"
+              alt="Github Icon"
               src={currentTheme ? DarkGithub : LightGithub}
             />
           </Link>
-          <Link href={props.data.links.Codepen} target="blank">
+          <Link href={props.data.links.Dribble} target="blank">
             <Image
               width={14}
               height={14}
-              alt="Codepen"
-              src={currentTheme ? DarkCodepen : LightCodepen}
+              alt="dribble Icon"
+              src={DribbleIcon}
             />
           </Link>
-          {/**
-          <Link href="" target="blank">
-            <Image
-              width={14}
-              height={14}
-              alt="Linkdin"
-              src={currentTheme ? DarkLinkdin : LightLinkdin}
-            />
+          <Link href={props.data.links.Blog} target="blank">
+            <Image width={14} height={14} alt="Blog Icon" src={BlogIcon} />
           </Link>
-          <Link href="" target="blank">
-            <Image
-              width={14}
-              height={14}
-              alt="Email"
-              src={currentTheme ? DarkEmail : LightEmail}
-            />
-          </Link>
-                    */}
         </div>
       </div>
     </div>
