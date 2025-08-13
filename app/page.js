@@ -34,6 +34,13 @@ export default function Home() {
       state: "complete",
     },
     {
+      link: "https://upreach-template-website.vercel.app/",
+      title: "Business Consultant",
+      description:
+        "A professionally built website designed for business consultants. 💼",
+      state: "complete",
+    },
+    {
       link: "https://charity-ngo-site-d9s2.vercel.app/",
       title: "Charity NGO",
       description:
@@ -52,13 +59,6 @@ export default function Home() {
       description:
         "Just a harmless game of Rock, Paper, Scissors ✌️… or is it?",
       state: "complete",
-    },
-    {
-      link: "https://github.com/accamamuhammad/Trackment",
-      title: "Trackment",
-      description:
-        "App to create experiments, set durations, and log daily progress 📆",
-      state: "pending",
     },
     {
       link: "https://dua-tracker.vercel.app/",
