@@ -76,24 +76,19 @@ export default function Home() {
       date: "February 2025 - May 2025",
       position: "Intern",
     },
-    {
-      workPlace: "Protus Tech",
-      date: "June 2025 - Present",
-      position: "Founder & CTO",
-    },
   ];
 
   // My blog posts
   const posts = [
     {
+      date: "04 09 2025",
+      title: "7 Tailwind CSS Features You're Not Using But Should",
+      link: "https://accamamuhammad.hashnode.dev/7-tailwind-css-features-youre-not-using-but-should",
+    },
+    {
       date: "30 07 2024",
       title: "7 Reasons Why TailwindCSS Outshines Traditional CSS",
       link: "https://accamamuhammad.hashnode.dev/7-reasons-why-tailwindcss-outshines-traditional-css",
-    },
-    {
-      date: "17 08 2024",
-      title: "5 Projects That Will Get You Hired as a Developer",
-      link: "https://accamamuhammad.hashnode.dev/5-projects-that-will-get-you-hired-as-a-developer?",
     },
   ];
 
@@ -109,7 +104,7 @@ export default function Home() {
     { name: "Firebase", state: "complete" },
     { name: "Git, Github", state: "complete" },
     { name: "Vercel", state: "complete" },
-    { name: "Docker", state: "complete" },
+    { name: "NodeJS", state: "complete" },
     { name: "MySQL", state: "progress" },
     { name: "MongoDB", state: "progress" },
   ];
