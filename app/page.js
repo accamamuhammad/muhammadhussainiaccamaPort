@@ -27,13 +27,6 @@ export default function Home() {
   // My Projects
   const projects = [
     {
-      link: "https://protos-web-solutions.vercel.app/",
-      title: "Protus Tech",
-      description:
-        "A web design agency for coaches to shine and book more clients 📈.",
-      state: "complete",
-    },
-    {
       link: "https://upreach-template-website.vercel.app/",
       title: "Business Consultant",
       description:
