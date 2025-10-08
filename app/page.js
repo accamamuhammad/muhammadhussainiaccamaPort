@@ -12,7 +12,7 @@ export default function Home() {
     intro: "Hi 👋, my name is ",
     name: "Accama Muhammad ",
     aboutMe:
-      "Hey there 👋, I’m Accama Muhammad, part code wrangler, part idea launcher. I bring ideas to life on the web, building sites that feel alive, tell stories, and actually get things done. When I’m not buried in React components or chasing down a stubborn bug, I’m exploring the worlds of blockchain and AI always tinkering, experimenting, and seeing what’s possible. I’m here to build cool stuff, learn endlessly, and push my creativity further. 🚀",
+      "Hey there 👋, I’m Muhammad, part code wrangler, part idea launcher. I bring ideas to life on the web, building sites that feel alive, tell stories, and actually get things done. When I’m not buried in React components or chasing down a stubborn bug, I’m exploring the worlds of blockchain and AI always tinkering, experimenting, and seeing what’s possible. I’m here to build cool stuff, learn endlessly, and push my creativity further. 🚀",
 
     links: {
       Github: "https://github.com/accamamuhammad",
@@ -68,6 +68,11 @@ export default function Home() {
       workPlace: "Kennie Technologies",
       date: "February 2025 - May 2025",
       position: "Intern",
+    },
+    {
+      workPlace: "Kennie Technologies",
+      date: "August 2025 - Present",
+      position: "CTO & CEO",
     },
   ];
 
