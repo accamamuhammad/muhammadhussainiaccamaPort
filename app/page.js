@@ -27,6 +27,13 @@ export default function Home() {
   // My Projects
   const projects = [
     {
+      link: "https://locky-link.vercel.app/",
+      title: "Locky-link",
+      description:
+        "Locky-Link is a minimalistic web application that allows users to send messages securely through unique, password-protected links. 🔐",
+      state: "complete",
+    },
+    {
       link: "https://upreach-template-website.vercel.app/",
       title: "Business Consultant",
       description:
@@ -70,9 +77,9 @@ export default function Home() {
       position: "Intern",
     },
     {
-      workPlace: "Kennie Technologies",
+      workPlace: "Protus Web",
       date: "August 2025 - Present",
-      position: "CTO & CEO",
+      position: "Founder & CTO",
     },
   ];
 
