@@ -18,8 +18,8 @@ const Projects = (props) => {
               key={index}
               className={` ${
                 item.state === "pending"
-                  ? "text-gray-400 leading-5"
-                  : "text-primaryText leading-5"
+                  ? "text-gray-400 leading-6"
+                  : "text-primaryText leading-6"
               }`}
             >
               <Link

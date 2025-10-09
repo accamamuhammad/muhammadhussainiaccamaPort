@@ -37,34 +37,35 @@ export default function Home() {
       link: "https://upreach-template-website.vercel.app/",
       title: "Business Consultant",
       description:
-        "A professionally built website designed for business consultants. 💼",
+        "A professionally built website designed for business coaches & consultants, that converts leads into clients 💼",
       state: "complete",
     },
     {
       link: "https://charity-ngo-site-d9s2.vercel.app/",
       title: "Charity NGO",
       description:
-        "Empowering charities to reach communities, for ever lasting change. 🤝",
+        "A landing page for a nonprofit organization created to enable the organization to reach communities for long-lasting change. 🤝",
       state: "complete",
     },
     {
       link: "https://pinnacle-international-fitness.netlify.app/",
       title: "Pinnacle Fitness",
-      description: "A website to help people start their fitness journey 🏋🏽‍♀️.",
+      description:
+        "A website to help people start their fitness journey, and tae  🏋🏽‍♀️. It offers guidance, motivation, and tools to build lasting healthy habits.",
       state: "complete",
     },
     {
       link: "https://rock-paper-scissors-game-iota-nine.vercel.app/",
       title: "Rock Paper Scissors",
       description:
-        "Just a harmless game of Rock, Paper, Scissors ✌️… or is it?",
+        "Just a harmless game of Rock, Paper, Scissors ✌️… or is it? Challenge yourself and see if you can outsmart the computer’s next move.",
       state: "complete",
     },
     {
       link: "https://dua-tracker.vercel.app/",
       title: "Dua Tracker",
       description:
-        "Stay Connected to Your Duas, Strengthen Your Connection with Allah. 📿",
+        "Stay Connected to Your Duas, Strengthen Your Connection with Allah. 📿 Track, organize, and reflect on your daily prayers effortlessly.",
       state: "pending",
     },
   ];
