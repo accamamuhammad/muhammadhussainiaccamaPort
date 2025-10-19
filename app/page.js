@@ -131,6 +131,7 @@ export default function Home() {
     { name: "Git, Github", state: "complete" },
     { name: "Vercel", state: "complete" },
     { name: "NodeJS", state: "complete" },
+    { name: "ExpressJS", state: "progress" },
     { name: "MySQL", state: "progress" },
     { name: "MongoDB", state: "progress" },
   ];
