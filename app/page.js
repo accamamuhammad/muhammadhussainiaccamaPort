@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import WorkExperience from "./components/WorkExperience";
+import Education from "./components/Education";
 import Posts from "./components/Posts";
 import TechStack from "./components/TechStack";
 
@@ -84,6 +85,25 @@ export default function Home() {
     },
   ];
 
+  // Education
+  const education = [
+    {
+      place: "Harvard University",
+      date: "October 2025",
+      title: "HarvardX: CS50's Web Programming with Python and JavaScript",
+    },
+    {
+      place: "Bro Code",
+      date: "May 2025",
+      title: "React Fundamentals: Mastering Hooks and Dynamic Rendering",
+    },
+    {
+      place: "FreeCodeCamp",
+      date: "September 2024",
+      title: "Front-End Web Development: HTML, CSS, JavaScript & TailwindCSS",
+    },
+  ];
+
   // My blog posts
   const posts = [
     {
@@ -124,6 +144,7 @@ export default function Home() {
         <AboutMe data={description} />
         <Projects data={projects} />
         <WorkExperience data={experience} />
+        <Education data={education} />
         <Posts data={posts} />
         <TechStack data={techStack} />
       </div>
