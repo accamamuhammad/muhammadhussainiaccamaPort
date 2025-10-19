@@ -33,7 +33,7 @@ const TechStack = (props) => {
         })}
       </ul>
       <p className="mt-10 text-xs text-primaryText text-center">
-        Copyright © 2024 Accama Muhammad
+        Copyright © 2025 Accama Muhammad
       </p>
     </div>
   );
